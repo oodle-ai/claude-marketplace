@@ -1,0 +1,17 @@
+{
+  "description": "Detect missing observability documentation on session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/scripts/detect-observability.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

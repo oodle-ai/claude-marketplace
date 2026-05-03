@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "oodle-plugins",
+  "description": "Oodle AI's Claude Code plugins for PR workflows and observability enforcement",
+  "owner": {
+    "name": "Oodle AI",
+    "email": "eng@oodle.ai"
+  },
+  "plugins": [
+    {
+      "name": "create-pr",
+      "description": "Intelligent PR creation with observability enforcement — detects existing metrics/logs/traces patterns, ensures new changes include proper instrumentation, and embeds monitoring guidance in commit messages and PR descriptions for CI/CD release validation.",
+      "author": {
+        "name": "Oodle AI"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/oodle-ai/claude-marketplace.git",
+        "path": "plugins/create-pr",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/oodle-ai/claude-marketplace/tree/main/plugins/create-pr"
+    }
+  ]
+}

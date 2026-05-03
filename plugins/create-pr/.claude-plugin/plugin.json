@@ -1,0 +1,12 @@
+{
+  "name": "create-pr",
+  "version": "0.1.0",
+  "description": "Intelligent PR creation with observability enforcement — detects existing metrics/logs/traces patterns, ensures new changes include proper instrumentation, and embeds monitoring guidance in commit messages for CI/CD release validation.",
+  "author": {
+    "name": "Oodle AI",
+    "url": "https://github.com/oodle-ai"
+  },
+  "repository": "https://github.com/oodle-ai/claude-marketplace",
+  "license": "Apache-2.0",
+  "keywords": ["pr", "observability", "metrics", "logging", "tracing", "ci-cd"]
+}
